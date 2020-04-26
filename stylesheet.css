@@ -1,3 +1,193 @@
-.title {
-	color: #02ccba;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 200px 0 100px 0;
+    background-image: url(wfh2.jpg);
+    background-size: cover;
+    color: #003049;
+    text-align: left;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.gabung {
+    background-color: #d62828;
+    float: left;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(131,181,215,0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    font-size: medium;
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 90px;
+    padding: 0 25px;
+    color: floralwhite;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #003049;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h1 {
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.lesson {
+    float: left;
+    width: 33%;
+    color: aliceblue;
+}
+
+.lesson-icon {
+    position: relative;
+
+}
+
+.heading h3 {
+    font-weight: normal;
+
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.animated {
+    width: 1170px;
+}
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer {
+    height: 160px;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: rgb(7, 235, 64);
+}
+
+.footer-right {
+    font-size: medium;
+    float: right;
+    margin-right: -25px;
 }
